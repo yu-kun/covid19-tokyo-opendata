@@ -33,12 +33,13 @@ Open covid19-tokyo-opendata folder in VS Code, press F1, input the command below
 
 初回はDocker imageのビルドと拡張機能の導入、コンテナの起動で数分かかる。コンテナ環境起動後にpatient.pyファイルを開き、"# %%"行の上部にあるRun Cellボタンをクリック(Shift+Enter)するとJupyter Serverが起動しコードが実行される。
 
-A few minutes will take to run the container for Docker image building and installing extentions. Open patient.py file after launching the container. By pressing Run Cell abowe # %% line you will launch Jupyter Server to run a code.
+A few minutes will take to run the container for Docker image building and installing extentions. Open patient.py file after launching the container. By pressing Run Cell abowe "# %%" line you will launch Jupyter Server to run a code.
 
 
 ## 実行例 / Example
 
-
+![日別陽性患者数](https://github.com/yu-kun/covid19-tokyo-opendata/blob/master/daily_patient_number_20200504.png)
+![年代別陽性患者数](https://github.com/yu-kun/covid19-tokyo-opendata/blob/master/distribution_of_patients_by_age_group_20200504.png)
 
 ## 参考サイト / Reference
 
