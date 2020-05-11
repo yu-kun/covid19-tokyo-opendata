@@ -25,7 +25,9 @@ se_dairy['2020-04-17']
 
 # %%
 # 日別の陽性者数の棒グラフ
-se_dairy.plot(title='東京都 新型コロナウイルス陽性患者')
+ax_dairy = se_dairy.plot(title='東京都 新型コロナウイルス陽性患者')
+fig = ax_dairy.get_figure()
+fig.savefig('data/daily_patient_number_' + df['公表_年月日'].max().strftime('%Y%m%d') + '.png', dpi=100)
 
 # %%
 df_tmp = df[['公表_年月日', '患者_年代']]
@@ -43,6 +45,8 @@ df_age = df_tmp3.groupby('公表_年月日').sum()
 # %%
 df_age1 = df_age.copy()
 df_age1.index = df_age.index.strftime('%m/%d')
-df_age1.plot(kind='bar', stacked=True, figsize=(17,5), title='東京都 新型コロナウイルス陽性患者(年代別積み上げ)')
+ax_age = df_age1.plot(kind='bar', stacked=True, figsize=(17,5), title='東京都 新型コロナウイルス陽性患者(年代別積み上げ)')
+fig = ax_age.get_figure()
+fig.savefig('data/distribution_of_patients_by_age_group_' + df['公表_年月日'].max().strftime('%Y%m%d') + '.png', dpi=100)
 
 # %%
