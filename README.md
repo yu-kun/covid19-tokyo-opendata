@@ -13,9 +13,9 @@ Source code to a distribution of patients by age group created with Python Jupyt
 My software enviroment is as follows. The same operation can be executed with Docker, VS code environment.
 
 
-- macOS Catalina 10.15.4
+- macOS Catalina 10.15.5
 - Docker version 19.03.8
-- Visual Studio Code 1.44.2 (Extension: Remote Development, Docker, Python)
+- Visual Studio Code 1.46.0 (Extension: Remote Development, Docker, Python)
 
 ## Python Jupyter起動方法 / Python Jupyter start up guidelines 
 
