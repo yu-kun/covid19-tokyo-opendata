@@ -1,6 +1,6 @@
 # covid19-tokyo-opendata
 
-## 概要 / Overveiew
+## 概要 / Overview
 
 東京都オープンデータカタログサイトの[東京都 新型コロナウイルス陽性患者発表詳細](https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068)のcsvファイルを元にPython jupyterを用いて陽性患者数を年代別の積み上げグラフを出力するコード。
 
