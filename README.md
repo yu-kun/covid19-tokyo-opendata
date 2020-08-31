@@ -38,8 +38,8 @@ A few minutes will take to run the container for Docker image building and insta
 
 ## 実行例 / Example
 
-![日別陽性患者数](https://github.com/yu-kun/covid19-tokyo-opendata/blob/master/data/daily_patient_number_20200704.png)
-![年代別陽性患者数](https://github.com/yu-kun/covid19-tokyo-opendata/blob/master/data/distribution_of_patients_by_age_group_20200704.png)
+![日別陽性患者数](https://github.com/yu-kun/covid19-tokyo-opendata/blob/master/data/daily_patient_number_20200831.png)
+![年代別陽性患者数](https://github.com/yu-kun/covid19-tokyo-opendata/blob/master/data/distribution_of_patients_by_age_group_20200831.png)
 
 ## 参考サイト / Reference
 
