@@ -7,9 +7,11 @@ import pandas as pd
 url = 'https://stopcovid19.metro.tokyo.lg.jp/data/130001_tokyo_covid19_patients.csv'
 df = pd.read_csv(url)
 df['公表_年月日'] = pd.to_datetime(df['公表_年月日'], format='%Y-%m-%d')
+
+# %%
 # 未使用予定の列を削除
-del df['No'], df['全国地方公共団体コード'], df['市区町村名'], df['発症_年月日'], df['患者_属性'], \
-    df['患者_状態'], df['患者_症状'], df['患者_渡航歴の有無フラグ'], df['備考']
+# del df['No'], df['全国地方公共団体コード'], df['市区町村名'], df['発症_年月日'], df['患者_属性'], \
+#     df['患者_状態'], df['患者_症状'], df['患者_渡航歴の有無フラグ'], df['備考']
 
 # %%
 df
